@@ -35,7 +35,7 @@ class LoadStreamlitUI:
                 # Validate API key
                 if not self.user_controls["GROQ_API_KEY"]:
                     st.warning(
-                        "⚠️ Please enter your GROQ API key to proceed. Don't have? refer : https://console.groq.com/keys "
+                        "⚠️ Please enter your GROQ API key to proceed. Don't have one ? refer to : https://console.groq.com/keys for a free key"
                     )
 
             ## Usecase selection
